@@ -14,8 +14,8 @@
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Sign Up</title>
 </head>
 
@@ -26,37 +26,40 @@
             <img src="/img/Work_7.jpg" alt="" srcset="">
         </div>
         <div class="login-right">
-            <div class="login-form">
-                <div class="login-form-header">
-                    <p>Bem Vindo!</p>
+            <form action="">
+                <div class="login-form">
+                    <div class="login-form-header">
+                        <p>Bem Vindo!</p>
+                    </div>
+                    <div class="login-item">
+                        <input class="input-user" type="email" name="email" id="email">
+                        <label class="label-user" for="email">Email</label>
+                        <span class="error">deu erro</span>
+                    </div>
+                    <div class="login-item">
+                        <input class="input-user" type="password" name="password" id="password">
+                        <label class="label-user" for="password">Password</label>
+                        <span class="error">deu erro</span>
+                    </div>
+                    <div class="remember-me">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label class="checkboxLabel" for="remember">Remember me</label>
+                    </div>
+                    <button type="submit">Sign In</button>
+                    <div class="login-footer">
+                        <a href="">
+                            <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="" srcset="" width="30">
+                        </a>
+                        <a href="">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="" srcset=""
+                                width="30">
+                        </a>
+                    </div>
+                    <div class="forgot-password">
+                        <span>Forgot your password?</span>
+                    </div>
                 </div>
-                <div class="email-box">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <span class="error">deu erro</span>
-                </div>
-                <div class="password-box">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <span class="error">deu erro</span>
-                </div>
-                <div class="remember-me">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label class="checkboxLabel" for="remember">Remember me</label>
-                </div>
-                <button type="submit">Sign In</button>
-                <div class="login-footer">
-                    <a href="">
-                        <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="" srcset="" width="30">
-                    </a>
-                    <a href="">
-                        <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="" srcset="" width="30">
-                    </a>
-                </div>
-                <div class="forgot-password">
-                    <span>Forgot your password?</span>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </body>
